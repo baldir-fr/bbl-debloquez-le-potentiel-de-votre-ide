@@ -1,0 +1,7 @@
+= Tip of the day
+
+ifndef::is-root[]
+:imagesdir: assets
+endif::[]
+
+image::eclipse-tip-of-the-day.png[]

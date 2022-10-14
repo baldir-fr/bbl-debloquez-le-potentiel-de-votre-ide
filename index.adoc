@@ -1,0 +1,13 @@
+= Débloquez le potentiel de votre IDE
+:is-root: true
+:imagesdir: fragments/assets
+
+:leveloffset: +1
+
+include::fragments/intellij-community.adoc[]
+
+include::fragments/intellij-ultimate.adoc[]
+
+include::fragments/eclipse-jakarta-ee.adoc[]
+
+:leveloffset: -1

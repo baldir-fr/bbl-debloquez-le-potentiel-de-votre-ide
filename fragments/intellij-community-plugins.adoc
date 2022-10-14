@@ -1,0 +1,5 @@
+= Plugins
+
+ifndef::is-root[]
+:imagesdir: assets
+endif::[]

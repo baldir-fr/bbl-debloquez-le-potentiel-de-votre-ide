@@ -1,0 +1,7 @@
+= Cheat Sheets
+
+ifndef::is-root[]
+:imagesdir: assets
+endif::[]
+
+image:eclipse-jakarta-ee-cheat-sheets.png[]

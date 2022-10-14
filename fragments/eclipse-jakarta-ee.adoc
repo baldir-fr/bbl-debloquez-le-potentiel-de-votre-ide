@@ -1,0 +1,7 @@
+= Eclipse Jakarta EE Edition
+
+:leveloffset: +1
+
+include::eclipse-jakarta-ee-cheat-sheets.adoc[]
+
+:leveloffset: -1

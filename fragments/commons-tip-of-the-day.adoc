@@ -1,0 +1,4 @@
+= Tip of the day
+
+* link:intellij-community-tip-of-the-day.adoc[IntelliJ Community/Ultimate]
+* link:eclipse-tip-of-the-day.adoc[Eclipse]

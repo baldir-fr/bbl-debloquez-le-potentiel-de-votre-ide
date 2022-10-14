@@ -1,0 +1,9 @@
+= Débloquez le potentiel de votre IDE
+:is-root: true
+:imagesdir: fragments/assets
+
+:leveloffset: +1
+
+include::fragments/commons-tip-of-the-day.adoc[]
+
+:leveloffset: -1

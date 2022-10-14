@@ -1,0 +1,12 @@
+= Tip of the day
+
+ifndef::is-root[]
+:imagesdir: assets
+endif::[]
+
+Disponible pour
+
+* IntelliJ Community Edition
+* IntelliJ Ultimate Edition
+
+image::intellij-tip-of-the-day.png[]

@@ -1,0 +1,11 @@
+= IntelliJ Community Edition
+
+ifndef::is-root[]
+:imagesdir: assets
+endif::[]
+
+:leveloffset: +1
+
+include::intellij-community-tip-of-the-day.adoc[]
+
+:leveloffset: -1
