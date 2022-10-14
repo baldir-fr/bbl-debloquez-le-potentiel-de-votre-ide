@@ -1,0 +1,13 @@
+= Extraire méthode
+
+:experimental: true
+
+ifndef::is-root[]
+:imagesdir: assets
+endif::[]
+
+[horizontal]
+Windows:: kbd:[Ctrl+Altt+M]
+MacOs:: kbd:[Command+Option+M]
+
+image:intellij-extract-method.gif[]

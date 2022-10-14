@@ -8,4 +8,16 @@ include::fragments/commons-tip-of-the-day.adoc[]
 
 include::fragments/commons-rename.adoc[]
 
+include::fragments/commons-extract-method.adoc[]
+
+
+
 :leveloffset: -1
+
+
+* sélection par colonnes
+* extraire méthode
+* introduire paramètre
+* déplacer ligne
+* inline méthode
+* inline variable

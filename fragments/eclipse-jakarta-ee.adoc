@@ -8,4 +8,6 @@ include::eclipse-jakarta-ee-cheat-sheets.adoc[]
 
 include::eclipse-common-rename.adoc[]
 
+include::eclipse-common-extract-method.adoc[]
+
 :leveloffset: -1

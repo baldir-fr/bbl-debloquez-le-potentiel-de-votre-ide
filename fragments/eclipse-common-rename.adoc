@@ -7,7 +7,7 @@ ifndef::is-root[]
 endif::[]
 
 [horizontal]
-Windows:: kbd:[Ctrl+Alt+R]
+Windows:: kbd:[Alt+Shift+R]
 MacOs:: kbd:[Command+Option+R]
 
 image:eclipse-rename.gif[]

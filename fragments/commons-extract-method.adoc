@@ -1,0 +1,4 @@
+= Extraire méthode
+
+* link:intellij-common-extract-method.adoc[IntelliJ Community/Ultimate]
+* link:eclipse-common-extract-method.adoc[Eclipse]
