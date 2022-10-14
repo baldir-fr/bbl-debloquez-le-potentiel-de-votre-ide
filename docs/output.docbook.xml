@@ -6,8 +6,10 @@
 <title>Débloquez le potentiel de votre IDE</title>
 <date>2022-10-14</date>
 </info>
+<simpara><?asciidoc-pagebreak?></simpara>
 <section xml:id="_intellij_community_edition">
 <title>IntelliJ Community Edition</title>
+<simpara>dsd</simpara>
 <section xml:id="_tip_of_the_day">
 <title>Tip of the day</title>
 <simpara>Disponible pour</simpara>
@@ -27,6 +29,7 @@
 <textobject><phrase>intellij tip of the day</phrase></textobject>
 </mediaobject>
 </informalfigure>
+<simpara><?asciidoc-pagebreak?></simpara>
 </section>
 <section xml:id="_rename">
 <title>Rename</title>
@@ -81,6 +84,7 @@
 <textobject><phrase>intellij rename 03</phrase></textobject>
 </inlinemediaobject></para>
 </formalpara>
+<simpara><?asciidoc-pagebreak?></simpara>
 </section>
 </section>
 <section xml:id="_intellij_ultimate_edition">
@@ -158,6 +162,7 @@
 <textobject><phrase>intellij rename 03</phrase></textobject>
 </inlinemediaobject></para>
 </formalpara>
+<simpara><?asciidoc-pagebreak?></simpara>
 </section>
 </section>
 <section xml:id="_eclipse_jakarta_ee_edition">
@@ -172,6 +177,7 @@
 <textobject><phrase>eclipse tip of the day</phrase></textobject>
 </mediaobject>
 </informalfigure>
+<simpara><?asciidoc-pagebreak?></simpara>
 </section>
 <section xml:id="_cheat_sheets">
 <title>Cheat Sheets</title>
@@ -181,6 +187,7 @@
 </imageobject>
 <textobject><phrase>eclipse jakarta ee cheat sheets</phrase></textobject>
 </inlinemediaobject></simpara>
+<simpara><?asciidoc-pagebreak?></simpara>
 </section>
 <section xml:id="_rename_3">
 <title>Rename</title>
@@ -208,12 +215,7 @@
 </tbody>
 </tgroup>
 </informaltable>
-<simpara><inlinemediaobject>
-<imageobject>
-<imagedata fileref="fragments/assets/eclipse-rename.gif"/>
-</imageobject>
-<textobject><phrase>eclipse rename</phrase></textobject>
-</inlinemediaobject></simpara>
+<simpara><?asciidoc-pagebreak?></simpara>
 </section>
 <section xml:id="_extraire_méthode">
 <title>Extraire méthode</title>
@@ -241,12 +243,6 @@
 </tbody>
 </tgroup>
 </informaltable>
-<simpara><inlinemediaobject>
-<imageobject>
-<imagedata fileref="fragments/assets/eclipse-extract-method.gif"/>
-</imageobject>
-<textobject><phrase>eclipse extract method</phrase></textobject>
-</inlinemediaobject></simpara>
 </section>
 </section>
 </article>

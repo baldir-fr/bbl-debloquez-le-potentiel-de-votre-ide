@@ -1,12 +1,13 @@
 = Débloquez le potentiel de votre IDE
 :imagesdir: fragments/assets
 :is-root: true
+:revealjs_hash: true
+:revealjs_history: true
 
 // Enable desired variations
 :intellij-community:
 :intellij-ultimate:
 :eclipse-jakarta-ee:
-
 
 <<<
 
