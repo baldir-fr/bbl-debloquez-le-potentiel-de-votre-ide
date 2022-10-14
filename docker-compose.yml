@@ -1,6 +1,5 @@
 version: "3.8"
 
-
 services:
 
   build-slides:
@@ -11,6 +10,8 @@ services:
       - "asciidoctor-revealjs"
       - "-a"
       - "revealjsdir=https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.9.2"
+      - "-a"
+      - "toc"
       - "_content/index.adoc"
       - "-o"
       - "docs/index.html"
@@ -22,6 +23,8 @@ services:
     command:
       - "asciidoctor-pdf"
       - "_content/index.adoc"
+      - "-a"
+      - "toc"
       - "-o"
       - "docs/output.pdf"
 

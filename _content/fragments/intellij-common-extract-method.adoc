@@ -10,4 +10,6 @@ endif::[]
 Windows:: kbd:[Ctrl+Altt+M]
 MacOs:: kbd:[Command+Option+M]
 
+ifdef::backend-revealjs[]
 image:intellij-extract-method.gif[]
+endif::[]

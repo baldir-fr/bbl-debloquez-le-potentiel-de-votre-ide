@@ -10,4 +10,6 @@ endif::[]
 Windows:: kbd:[Alt+Shift+R]
 MacOs:: kbd:[Command+Option+R]
 
+ifdef::backend-revealjs[]
 image:eclipse-rename.gif[]
+endif::[]

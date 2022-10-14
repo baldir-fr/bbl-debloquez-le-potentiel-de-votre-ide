@@ -10,4 +10,6 @@ endif::[]
 Windows:: kbd:[Alt+Shift+M]
 MacOs:: kbd:[Command+Option+M]
 
+ifdef::backend-revealjs[]
 image:eclipse-extract-method.gif[]
+endif::[]

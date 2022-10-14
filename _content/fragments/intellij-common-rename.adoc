@@ -10,4 +10,20 @@ endif::[]
 Windows:: kbd:[Shift+F6]
 MacOs:: kbd:[Shift+F6]
 
+ifdef::backend-revealjs[]
 image:intellij-rename.gif[]
+endif::[]
+
+ifndef::backend-revealjs[]
+
+.Sélectionner une zone de code
+image:intellij-rename-01.png[]
+
+.Extraire méthode
+image:intellij-rename-02.png[]
+
+.Valider : kbd:[Enter]
+image:intellij-rename-03.png[]
+
+endif::[]
+

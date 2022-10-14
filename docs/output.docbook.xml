@@ -3,92 +3,250 @@
 <?asciidoc-numbered?>
 <article xmlns="http://docbook.org/ns/docbook" xmlns:xl="http://www.w3.org/1999/xlink" version="5.0" xml:lang="en">
 <info>
-<title>TODO </title>
-<subtitle>présentation</subtitle>
-<date>2022-10-07</date>
-<author>
-<personname>
-<firstname>Auteur</firstname>
-</personname>
-</author>
-<authorinitials>A</authorinitials>
+<title>Débloquez le potentiel de votre IDE</title>
+<date>2022-10-14</date>
 </info>
-<section xml:id="_slide_1">
-<title>Slide 1</title>
-<simpara>Exemple d&#8217;image</simpara>
+<section xml:id="_intellij_community_edition">
+<title>IntelliJ Community Edition</title>
+<section xml:id="_tip_of_the_day">
+<title>Tip of the day</title>
+<simpara>Disponible pour</simpara>
+<itemizedlist>
+<listitem>
+<simpara>IntelliJ Community Edition</simpara>
+</listitem>
+<listitem>
+<simpara>IntelliJ Ultimate Edition</simpara>
+</listitem>
+</itemizedlist>
 <informalfigure>
 <mediaobject>
 <imageobject>
-<imagedata fileref="assets/sample.jpg"/>
+<imagedata fileref="fragments/assets/intellij-tip-of-the-day.png"/>
 </imageobject>
-<textobject><phrase>sample</phrase></textobject>
+<textobject><phrase>intellij tip of the day</phrase></textobject>
 </mediaobject>
 </informalfigure>
-<section xml:id="_slide_1_2">
-<title>Slide 1.2</title>
-<simpara>Exemple de code snippet avec import.</simpara>
-<programlisting language="yml" linenumbering="unnumbered">version: "3.8"
-
-
-services:
-
-  build-slides:
-    image: "asciidoctor/docker-asciidoctor"
-    volumes:
-      - ./:/documents/
-    command:
-      - "asciidoctor-revealjs"
-      - "-a"
-      - "revealjsdir=https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.9.2"
-      - "_content/index.adoc"
-      - "-o"
-      - "docs/index.html"
-
-  build-pdf:
-    image: "asciidoctor/docker-asciidoctor"
-    volumes:
-      - ./:/documents/
-    command:
-      - "asciidoctor-pdf"
-      - "_content/index.adoc"
-      - "-o"
-      - "docs/output.pdf"
-
-  build-epub:
-    image: "asciidoctor/docker-asciidoctor"
-    volumes:
-      - ./:/documents/
-    command:
-      - "asciidoctor-epub3"
-      - "_content/index.adoc"
-      - "-o"
-      - "docs/output.epub"
-
-  build-docbook:
-    image: "asciidoctor/docker-asciidoctor"
-    volumes:
-      - ./:/documents/
-    command:
-      - "asciidoctor"
-      - "-b"
-      - "docbook"
-      - "_content/index.adoc"
-      - "-o"
-      - "docs/output.docbook.xml"
-
-  build-docx:
-    image: "pandoc/core"
-    volumes:
-      - ./:/data/
-    entrypoint: "./generate-docx.sh"</programlisting>
+</section>
+<section xml:id="_rename">
+<title>Rename</title>
+<informaltable tabstyle="horizontal" frame="none" colsep="0" rowsep="0">
+<tgroup cols="2">
+<colspec colwidth="15*"/>
+<colspec colwidth="85*"/>
+<tbody valign="top">
+<row>
+<entry>
+<simpara>Windows</simpara>
+</entry>
+<entry>
+<simpara><keycombo><keycap>Shift</keycap><keycap>F6</keycap></keycombo></simpara>
+</entry>
+</row>
+<row>
+<entry>
+<simpara>MacOs</simpara>
+</entry>
+<entry>
+<simpara><keycombo><keycap>Shift</keycap><keycap>F6</keycap></keycombo></simpara>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</informaltable>
+<formalpara>
+<title>Sélectionner une zone de code</title>
+<para><inlinemediaobject>
+<imageobject>
+<imagedata fileref="fragments/assets/intellij-rename-01.png"/>
+</imageobject>
+<textobject><phrase>intellij rename 01</phrase></textobject>
+</inlinemediaobject></para>
+</formalpara>
+<formalpara>
+<title>Extraire méthode</title>
+<para><inlinemediaobject>
+<imageobject>
+<imagedata fileref="fragments/assets/intellij-rename-02.png"/>
+</imageobject>
+<textobject><phrase>intellij rename 02</phrase></textobject>
+</inlinemediaobject></para>
+</formalpara>
+<formalpara>
+<title>Valider : <keycap>Enter</keycap></title>
+<para><inlinemediaobject>
+<imageobject>
+<imagedata fileref="fragments/assets/intellij-rename-03.png"/>
+</imageobject>
+<textobject><phrase>intellij rename 03</phrase></textobject>
+</inlinemediaobject></para>
+</formalpara>
 </section>
 </section>
-<section xml:id="_slide_2">
-<title>Slide 2</title>
-<para role="notes">
-<simpara>Contenu n&#8217;apparaissant pas dans les slides
-Mais dans les notes de présentation ou dans les pdf, ebook, docbook.</simpara>
-</para>
-<simpara>Ce chapitre contient des notes de présentation.</simpara>
+<section xml:id="_intellij_ultimate_edition">
+<title>IntelliJ Ultimate Edition</title>
+<section xml:id="_tip_of_the_day_2">
+<title>Tip of the day</title>
+<simpara>Disponible pour</simpara>
+<itemizedlist>
+<listitem>
+<simpara>IntelliJ Community Edition</simpara>
+</listitem>
+<listitem>
+<simpara>IntelliJ Ultimate Edition</simpara>
+</listitem>
+</itemizedlist>
+<informalfigure>
+<mediaobject>
+<imageobject>
+<imagedata fileref="fragments/assets/intellij-tip-of-the-day.png"/>
+</imageobject>
+<textobject><phrase>intellij tip of the day</phrase></textobject>
+</mediaobject>
+</informalfigure>
+</section>
+<section xml:id="_rename_2">
+<title>Rename</title>
+<informaltable tabstyle="horizontal" frame="none" colsep="0" rowsep="0">
+<tgroup cols="2">
+<colspec colwidth="15*"/>
+<colspec colwidth="85*"/>
+<tbody valign="top">
+<row>
+<entry>
+<simpara>Windows</simpara>
+</entry>
+<entry>
+<simpara><keycombo><keycap>Shift</keycap><keycap>F6</keycap></keycombo></simpara>
+</entry>
+</row>
+<row>
+<entry>
+<simpara>MacOs</simpara>
+</entry>
+<entry>
+<simpara><keycombo><keycap>Shift</keycap><keycap>F6</keycap></keycombo></simpara>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</informaltable>
+<formalpara>
+<title>Sélectionner une zone de code</title>
+<para><inlinemediaobject>
+<imageobject>
+<imagedata fileref="fragments/assets/intellij-rename-01.png"/>
+</imageobject>
+<textobject><phrase>intellij rename 01</phrase></textobject>
+</inlinemediaobject></para>
+</formalpara>
+<formalpara>
+<title>Extraire méthode</title>
+<para><inlinemediaobject>
+<imageobject>
+<imagedata fileref="fragments/assets/intellij-rename-02.png"/>
+</imageobject>
+<textobject><phrase>intellij rename 02</phrase></textobject>
+</inlinemediaobject></para>
+</formalpara>
+<formalpara>
+<title>Valider : <keycap>Enter</keycap></title>
+<para><inlinemediaobject>
+<imageobject>
+<imagedata fileref="fragments/assets/intellij-rename-03.png"/>
+</imageobject>
+<textobject><phrase>intellij rename 03</phrase></textobject>
+</inlinemediaobject></para>
+</formalpara>
+</section>
+</section>
+<section xml:id="_eclipse_jakarta_ee_edition">
+<title>Eclipse Jakarta EE Edition</title>
+<section xml:id="_tip_of_the_day_3">
+<title>Tip of the day</title>
+<informalfigure>
+<mediaobject>
+<imageobject>
+<imagedata fileref="fragments/assets/eclipse-tip-of-the-day.png"/>
+</imageobject>
+<textobject><phrase>eclipse tip of the day</phrase></textobject>
+</mediaobject>
+</informalfigure>
+</section>
+<section xml:id="_cheat_sheets">
+<title>Cheat Sheets</title>
+<simpara><inlinemediaobject>
+<imageobject>
+<imagedata fileref="fragments/assets/eclipse-jakarta-ee-cheat-sheets.png"/>
+</imageobject>
+<textobject><phrase>eclipse jakarta ee cheat sheets</phrase></textobject>
+</inlinemediaobject></simpara>
+</section>
+<section xml:id="_rename_3">
+<title>Rename</title>
+<informaltable tabstyle="horizontal" frame="none" colsep="0" rowsep="0">
+<tgroup cols="2">
+<colspec colwidth="15*"/>
+<colspec colwidth="85*"/>
+<tbody valign="top">
+<row>
+<entry>
+<simpara>Windows</simpara>
+</entry>
+<entry>
+<simpara><keycombo><keycap>Alt</keycap><keycap>Shift</keycap><keycap>R</keycap></keycombo></simpara>
+</entry>
+</row>
+<row>
+<entry>
+<simpara>MacOs</simpara>
+</entry>
+<entry>
+<simpara><keycombo><keycap>Command</keycap><keycap>Option</keycap><keycap>R</keycap></keycombo></simpara>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</informaltable>
+<simpara><inlinemediaobject>
+<imageobject>
+<imagedata fileref="fragments/assets/eclipse-rename.gif"/>
+</imageobject>
+<textobject><phrase>eclipse rename</phrase></textobject>
+</inlinemediaobject></simpara>
+</section>
+<section xml:id="_extraire_méthode">
+<title>Extraire méthode</title>
+<informaltable tabstyle="horizontal" frame="none" colsep="0" rowsep="0">
+<tgroup cols="2">
+<colspec colwidth="15*"/>
+<colspec colwidth="85*"/>
+<tbody valign="top">
+<row>
+<entry>
+<simpara>Windows</simpara>
+</entry>
+<entry>
+<simpara><keycombo><keycap>Alt</keycap><keycap>Shift</keycap><keycap>M</keycap></keycombo></simpara>
+</entry>
+</row>
+<row>
+<entry>
+<simpara>MacOs</simpara>
+</entry>
+<entry>
+<simpara><keycombo><keycap>Command</keycap><keycap>Option</keycap><keycap>M</keycap></keycombo></simpara>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</informaltable>
+<simpara><inlinemediaobject>
+<imageobject>
+<imagedata fileref="fragments/assets/eclipse-extract-method.gif"/>
+</imageobject>
+<textobject><phrase>eclipse extract method</phrase></textobject>
+</inlinemediaobject></simpara>
+</section>
 </section>
 </article>

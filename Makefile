@@ -1,7 +1,15 @@
-all: dc-slides dc-pdf dc-epub dc-docbook
+all: cleanup dc-slides dc-pdf dc-epub dc-docbook
 
-dc-slides:
-	docker compose run --rm build-slides; rm -rf docs/assets; cp -r _content/assets docs/
+cleanup:
+	rm -rf docs;
+
+prepare:
+	mkdir -p docs/fragments/assets
+move-assets:
+	cp -r _content/fragments/assets docs/fragments;
+
+dc-slides: prepare move-assets
+	docker compose run --rm build-slides;
 dc-pdf:
 	docker compose run --rm build-pdf
 dc-epub:
@@ -13,10 +21,10 @@ dc-docx:
 
 all-no-docker: slides pdf epub docbook docx
 
-slides:
-	asciidoctor-revealjs -a revealjsdir=https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.9.2 _content/index.adoc -o docs/index.html; rm -rf docs/assets; cp -r _content/assets docs/
+slides: prepare move-assets
+	asciidoctor-revealjs -a revealjsdir=https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.9.2 _content/index.adoc -o docs/index.html; rm -rf docs/fragments/assets; cp -r _content/fragments/assets docs/fragments
 pdf:
-	asciidoctor-pdf _content/index.adoc -o docs/output.pdf
+	asciidoctor-pdf -a toc _content/index.adoc -o docs/output.pdf
 epub:
 	asciidoctor-epub3 _content/index.adoc -o docs/output.epub
 docbook:

@@ -1,13 +1,31 @@
 = Débloquez le potentiel de votre IDE
-:is-root: true
 :imagesdir: fragments/assets
+:is-root: true
+
+// Enable desired variations
+:intellij-community:
+:intellij-ultimate:
+:eclipse-jakarta-ee:
+
+
+<<<
 
 :leveloffset: +1
 
+ifdef::intellij-community[]
 include::fragments/intellij-community.adoc[]
+endif::[]
 
+<<<
+
+ifdef::intellij-ultimate[]
 include::fragments/intellij-ultimate.adoc[]
+endif::[]
 
+<<<
+
+ifdef::eclipse-jakarta-ee[]
 include::fragments/eclipse-jakarta-ee.adoc[]
+endif::[]
 
 :leveloffset: -1

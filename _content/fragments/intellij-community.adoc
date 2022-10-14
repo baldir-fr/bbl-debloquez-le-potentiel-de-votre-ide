@@ -8,6 +8,8 @@ endif::[]
 
 include::intellij-common-tip-of-the-day.adoc[]
 
+<<<
+
 include::intellij-common-rename.adoc[]
 
 :leveloffset: -1
