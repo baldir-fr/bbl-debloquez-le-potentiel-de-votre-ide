@@ -6,4 +6,6 @@
 
 include::fragments/commons-tip-of-the-day.adoc[]
 
+include::fragments/commons-rename.adoc[]
+
 :leveloffset: -1

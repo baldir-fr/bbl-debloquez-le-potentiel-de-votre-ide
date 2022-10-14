@@ -1,0 +1,4 @@
+= Rename
+
+* link:intellij-common-rename.adoc[IntelliJ Community/Ultimate]
+* link:eclipse-common-rename.adoc[Eclipse]

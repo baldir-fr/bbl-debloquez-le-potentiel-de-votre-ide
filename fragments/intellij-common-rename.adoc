@@ -1,0 +1,13 @@
+= Rename
+
+:experimental: true
+
+ifndef::is-root[]
+:imagesdir: assets
+endif::[]
+
+[horizontal]
+Windows:: kbd:[Shift+F6]
+MacOs:: kbd:[Shift+F6]
+
+image:intellij-rename.gif[]

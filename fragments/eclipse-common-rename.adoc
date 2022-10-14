@@ -1,0 +1,13 @@
+= Rename
+
+:experimental: true
+
+ifndef::is-root[]
+:imagesdir: assets
+endif::[]
+
+[horizontal]
+Windows:: kbd:[Ctrl+Alt+R]
+MacOs:: kbd:[Command+Option+R]
+
+image:eclipse-rename.gif[]
